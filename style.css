@@ -93,10 +93,11 @@ h3 {
 .points {
   font-size:12px;
   padding-top:0px;
-
 }
 
-
+.text {
+  margin-bottom:5%;
+}
 
 .title {
 
