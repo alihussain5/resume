@@ -92,15 +92,18 @@ h3 {
 
 .points {
   font-size:12px;
-  padding-bottom:0%;
+  padding-top:0px;
+  padding-bottom: 10px;
 }
+
+
 
 .title {
   padding-bottom:3%;
 }
 
 .sidebar .title {
-  padding-bottom:5%;
+  padding-bottom:6%;
 }
 
 .section {
