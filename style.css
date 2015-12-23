@@ -1,0 +1,104 @@
+@page Section1 {
+    size:8.5in 11in; 
+    margin:.5in .5in .5in .5in; 
+    mso-header-margin:.5in; 
+    mso-footer-margin:.5in; 
+    mso-paper-source:0;
+}
+body {
+    font:10.5pt "Times New Roman", Times, Serif;
+}
+@media only screen and (min-device-width: 480px) {
+  body {
+    background-color:#666;
+  }
+  .page {
+          background-color:white;
+          width:7in;
+          height:9.5in; /* IDK why the size is 9.5in instead of 10 */
+          padding:.5in; /*Should subtract from the width/height*/
+          margin:30px auto;
+          box-shadow:0 0 100px #222, 0 0 10px #ffd;
+     }
+}
+
+@media print {
+    .resume {
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+        height:9.45in;
+        margin-bottom:-5pt;
+    }
+
+}/* above this is from
+http://mvartan.com/2013/07/27/making-a-resume-in-html-and-css/
+below is custom */
+
+* {
+  font-family:Helvetica;
+  color:#5C5C5C;
+}
+
+.header {
+  line-height:30%;
+}
+
+.left, .right {
+  width:50%;
+  float:left;
+}
+
+.body {
+  float:left;
+  width:70%;
+  height:100%;
+}
+
+.sidebar {
+  float:left;
+  width:30%;
+  /*border-left: 1px solid black;*/
+  height:100%;
+}
+
+.right {
+  text-align: right;
+}
+
+h1, h2, h3, h4 {
+  font-weight: lighter;
+  display:inline;
+}
+
+h1 {
+  color:gray;
+  font-size:40px;
+}
+
+h2 {
+  font-size:22px;
+  color:#C4C4C4;
+}
+
+h3 {
+  font-size:20px;
+}
+
+.points {
+  font-size:12px;
+
+  padding-bottom:0%;
+}
+
+.title {
+  padding-bottom:3%;
+}
+
+.sidebar .title {
+  padding-bottom:5%;
+}
+
+.section {
+  line-height: 30%;
+}
