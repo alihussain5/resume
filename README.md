@@ -9,6 +9,6 @@
 .text contains sub-sections (i.e. individual projects)
   - .section wraps title of sub-sections
   - .points contains sub-section information
-  - use #no-section on sub-sections without a title (such as hobbies & interests)
+  - use #no-section on sub-sections without a .section class (such as hobbies & interests)
   
 
