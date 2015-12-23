@@ -42,7 +42,7 @@ below is custom */
 
 a {
   text-decoration: none;
-  color:black;
+  color:#242424;
 }
 
 .header {
@@ -93,6 +93,7 @@ h3 {
 .points {
   font-size:12px;
   padding-top:0px;
+  line-height:135%;
 }
 
 .text {
