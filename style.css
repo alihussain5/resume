@@ -96,35 +96,34 @@ h4 {
   font-size:13px;
 }
 
-.points {
+.text {
   font-size:12px;
   padding-top:0px;
   line-height:135%;
 }
 
-.text {
+.sub-section {
   margin-bottom:5%;
 }
 
-.title {
-
+.section > .title {
   padding-bottom:3%;
 }
 
-.sidebar .title {
+.sidebar > .section > .title {
   padding-bottom:6%;
 }
 
-.section {
+.sub-section > .title {
   line-height: 40%;
   margin-bottom:-1%;
 }
 
-#no-section .points {
+.no-title .text {
   margin-top:-8%;
 }
 
-.section p {
+.sub-section > .title p {
   color:#737373;
 }
 
