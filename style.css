@@ -90,6 +90,11 @@ h3 {
   font-size:20px;
 }
 
+h4 {
+  color:#5C5C5C;
+  font-size:13px;
+}
+
 .points {
   font-size:12px;
   padding-top:0px;
@@ -110,7 +115,7 @@ h3 {
 }
 
 .section {
-  line-height: 30%;
+  line-height: 40%;
 }
 
 #no-section .points {
