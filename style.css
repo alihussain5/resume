@@ -120,3 +120,15 @@ h3 {
 .section p {
   color:#737373;
 }
+
+.body ul {
+  padding-left:6%;
+}
+
+.sidebar ul {
+  padding-left:15%;
+}
+
+.sidebar ul ul {
+  padding-left:10%;
+}
