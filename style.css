@@ -103,7 +103,11 @@ h4 {
 }
 
 .sub-section {
-  margin-bottom:5%;
+  margin-bottom:4%;
+}
+
+.section {
+  margin-bottom:-1%;
 }
 
 .section > .title {
