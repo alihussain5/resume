@@ -9,7 +9,6 @@
   .title contains titles of sections
   
   .text wraps sub-sections (i.e. individual projects)
-  
     - .section wraps title of sub-sections
     
     - .points contains sub-section information
