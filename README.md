@@ -1,19 +1,16 @@
 # resume
 
-.body is main body
+three main classes: .header, .body & .sidebar
 
-.sidebar is right sidebar
+.header contains .left and .right 
+  * .left contains the name 
+  * .right contains contact information
 
-.whole is a container div wrapping around sections
+.body contains .section
+  * .section contains .title & .sub-section
+    * .title contains title of section
+    * .sub-section contains .title & .text
+      * .title contains title of sub-section (use class .no-title if sub-section has no title)
+      * .text contains sub-section text
 
-  .title contains titles of sections
-  
-  .text wraps sub-sections (i.e. individual projects)
-  
-    - .section wraps title of sub-sections
-    
-    - .points contains sub-section information
-    
-    - use #no-section on sub-sections without a .section class (such as hobbies & interests)
-  
-
+.sidebar is right 30% of page, same properties as .section in .body
