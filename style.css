@@ -87,6 +87,7 @@ h2 {
 }
 
 h3 {
+  font-weight:400;
   font-size:20px;
 }
 
@@ -116,6 +117,7 @@ h4 {
 
 .section {
   line-height: 40%;
+  margin-bottom:-1%;
 }
 
 #no-section .points {
