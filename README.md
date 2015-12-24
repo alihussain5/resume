@@ -1,6 +1,6 @@
 # resume
 
-Hosted: http://alihussa.in/resume/
+Example: http://alihussa.in/resume/
 
 three main classes: .header, .body & .sidebar
 
