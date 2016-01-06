@@ -6,11 +6,11 @@ Hosted using GitHub pages at: http://alihussa.in/resume/
 
 three main classes: .header, .body & .sidebar
 
-.header contains .left and .right 
+- .header contains .left and .right 
   * .left contains the name 
   * .right contains contact information
 
-.body contains .section
+- .body contains .section
   * .section contains .title & .sub-section
     * .title contains title of section
     * .sub-section contains .title & .text
