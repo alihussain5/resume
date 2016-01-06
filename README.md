@@ -1,5 +1,7 @@
 # My resume
 
+Created this to try and expand my knowledge of CSS and to not have to rely on a resume template.
+
 Example: http://alihussa.in/resume/
 
 three main classes: .header, .body & .sidebar
