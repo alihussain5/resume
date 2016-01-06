@@ -14,8 +14,8 @@ three main classes: .header, .body & .sidebar
  * .section contains .title & .sub-section
   * .title contains title of section
   * .sub-section contains .title & .text
-   * .title contains title of sub-section (use class .no-title if sub-section has no title)
-   * .text contains sub-section text
+    * .title contains title of sub-section (use class .no-title if sub-section has no title)
+    * .text contains sub-section text
 
 .sidebar is right 30% of page, same properties as .section in .body
 
