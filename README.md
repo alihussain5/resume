@@ -1,6 +1,8 @@
 # My resume
 
-Created this to try and expand my knowledge of CSS and to not have to rely on a resume template.
+Created this to try and expand my knowledge of CSS.
+
+Design is inspired by Deedy LaTeX resume template found at: http://www.latextemplates.com/template/deedy-resume-cv
 
 Example: http://alihussa.in/resume/
 
