@@ -1,4 +1,4 @@
-# resume
+# My resume
 
 Example: http://alihussa.in/resume/
 
