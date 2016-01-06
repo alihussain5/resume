@@ -4,7 +4,7 @@ Created this to try and expand my knowledge of CSS.
 
 Design is inspired by Deedy LaTeX resume template found at: http://www.latextemplates.com/template/deedy-resume-cv
 
-Example: http://alihussa.in/resume/
+Hosted using GitHub pages at: http://alihussa.in/resume/
 
 three main classes: .header, .body & .sidebar
 
