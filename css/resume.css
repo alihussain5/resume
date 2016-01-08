@@ -56,8 +56,10 @@ a {
 
 .body {
   float:left;
-  width:70%;
+  width:68%;
   height:100%;
+  margin-right:2%;
+
 }
 
 .sidebar {
@@ -123,7 +125,11 @@ h4 {
   margin-bottom:-1%;
 }
 
-.no-title .text {
+.body .no-title > .text {
+  margin-top:-4%;
+}
+
+.sidebar .no-title > .text {
   margin-top:-8%;
 }
 
@@ -141,4 +147,23 @@ h4 {
 
 .sidebar ul ul {
   padding-left:10%;
+}
+
+ul.no-points {
+  list-style-type: none;
+  padding-left:0%;
+}
+
+.sub-section.no-text {
+  margin-top:5%;
+}
+
+.sub-section.no-text h3 {
+  font-size:18px;
+}
+
+
+
+.sub-section.no-text p {
+  font-size:12px;
 }
