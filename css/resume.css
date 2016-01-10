@@ -18,6 +18,7 @@ body {
           height:9.5in; /* IDK why the size is 9.5in instead of 10 */
           padding:.5in; /*Should subtract from the width/height*/
           margin:30px auto;
+
           box-shadow:0 0 100px #222, 0 0 10px #ffd;
      }
 }
@@ -29,6 +30,7 @@ body {
         box-sizing: border-box;         /* Opera/IE 8+ */
         height:9.45in;
         margin-bottom:-5pt;
+
     }
 
 }/* above this is from
@@ -47,6 +49,7 @@ a {
 
 .header {
   line-height:30%;
+  padding-top:0.2in;
 }
 
 .left, .right {
