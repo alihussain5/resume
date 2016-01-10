@@ -1,13 +1,11 @@
-/*@page Section1 {
+@page Section1 {
     size:8.5in 11in; 
     margin:.5in .5in .5in .5in; 
     mso-header-margin:.5in; 
     mso-footer-margin:.5in; 
     mso-paper-source:0;
 }
-body {
-    font:10.5pt "Times New Roman", Times, Serif;
-}
+
 @media only screen and (min-device-width: 480px) {
   body {
     background-color:#666;
@@ -30,6 +28,7 @@ body {
         box-sizing: border-box;        
         height:9.45in;
         margin-bottom:-5pt;
+        -webkit-print-color-adjust: exact; /*thank the lord */
 
     }
 
@@ -37,9 +36,10 @@ body {
 http://mvartan.com/2013/07/27/making-a-resume-in-html-and-css/
 below is custom */
 
-* {
-  font-family:Helvetica;
-  color:#5C5C5C;
+html,body {
+    font:10.5pt Helvetica, "Times New Roman", Times, Serif;
+    color:#5C5C5C;
+
 }
 
 a {
