@@ -5,7 +5,9 @@
     mso-footer-margin:.5in; 
     mso-paper-source:0;
 }
-
+body {
+    font:10.5pt "Times New Roman", Times, Serif;
+}
 @media only screen and (min-device-width: 480px) {
   body {
     background-color:#666;
@@ -13,8 +15,8 @@
   .page {
           background-color:white;
           width:7in;
-          height:9.5in; 
-          padding:.5in; 
+          height:9.5in; /* IDK why the size is 9.5in instead of 10 */
+          padding:.5in; /*Should subtract from the width/height*/
           margin:30px auto;
 
           box-shadow:0 0 100px #222, 0 0 10px #ffd;
@@ -22,13 +24,12 @@
 }
 
 @media print {
-  .resume {
-        -webkit-box-sizing: border-box; 
-        -moz-box-sizing: border-box;   
-        box-sizing: border-box;        
+    #resume {
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
         height:9.45in;
         margin-bottom:-5pt;
-        -webkit-print-color-adjust: exact; /*thank the lord */
 
     }
 
@@ -36,10 +37,9 @@
 http://mvartan.com/2013/07/27/making-a-resume-in-html-and-css/
 below is custom */
 
-html,body {
-    font:10.5pt Helvetica, "Times New Roman", Times, Serif;
-    color:#5C5C5C;
-
+* {
+  font-family:Helvetica;
+  color:#5C5C5C;
 }
 
 a {
@@ -112,7 +112,7 @@ h4 {
 }
 
 .section {
-  margin-bottom:-1%;
+  margin-bottom:-2%;
 }
 
 .section > .title {
@@ -129,7 +129,7 @@ h4 {
 }
 
 .body .no-title > .text {
-  margin-top:-4%;
+  margin-top:-5%;
 }
 
 .sidebar .no-title > .text {
@@ -169,4 +169,32 @@ ul.no-points {
 
 .sub-section.no-text p {
   font-size:12px;
+}
+
+
+/*.multi li {
+  height:20px;
+  display: -webkit-box; 
+  -webkit-box-align: end;
+  text-align:center;
+}
+*/
+
+ul.multi-col {
+  display:table;
+  padding-left:0;
+}
+
+.multi-col ul {
+ display:table-row;
+}
+
+.multi-col li {
+  display:table-cell;
+  min-width:100px;
+}
+
+.multi-col li:first-child {
+  text-align:center;
+  min-width:50px;
 }
