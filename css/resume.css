@@ -186,6 +186,10 @@ ul.multi-col {
   padding-left:0;
 }
 
+ul.multi-col < div {
+    line-height:9pt;
+}
+
 .multi-col ul {
  display:table-row;
 }
@@ -198,5 +202,4 @@ ul.multi-col {
 .multi-col li:first-child {
   text-align:center;
   min-width:50px;
-
 }
