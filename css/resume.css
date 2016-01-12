@@ -186,7 +186,7 @@ ul.multi-col {
   padding-left:0;
 }
 
-ul.multi-col < div {
+ul.multi-col < .text {
     line-height:9pt;
 }
 
