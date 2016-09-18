@@ -41,7 +41,9 @@ html,body {
   color:#5C5C5C;
 }
 
-
+hr {
+  margin-bottom:20px;
+}
 
 a {
   text-decoration: none;
