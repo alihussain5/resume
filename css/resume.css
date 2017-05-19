@@ -1,8 +1,8 @@
 @page Section1 {
-    size:8.5in 11in; 
-    margin:.5in .5in .5in .5in; 
-    mso-header-margin:.5in; 
-    mso-footer-margin:.5in; 
+    size:8.5in 11in;
+    margin:.5in .5in .5in .5in;
+    mso-header-margin:.5in;
+    mso-footer-margin:.5in;
     mso-paper-source:0;
 }
 
@@ -123,12 +123,19 @@ h4 {
 }
 
 .sidebar > .section > .title {
-  padding-bottom:6%;
+  padding-bottom: 0%;
+  margin-bottom: -2%;
 }
 
 .sub-section > .title {
   line-height: 40%;
   margin-bottom:-1%;
+}
+
+.sidebar .sub-section > .title {
+  line-height: 40%;
+  margin-bottom:-1%;
+  margin-top: 9%;
 }
 
 .body .no-title > .text {
@@ -177,7 +184,7 @@ ul.no-points {
 
 /*.multi li {
   height:20px;
-  display: -webkit-box; 
+  display: -webkit-box;
   -webkit-box-align: end;
   text-align:center;
 }
