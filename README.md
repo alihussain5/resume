@@ -2,7 +2,7 @@
 
 Created this to try and expand my knowledge of CSS.
 
-Hosted using GitHub pages at: http://alihussa.in/resume/
+Hosted using GitHub pages at: http://alihussa.in/resume/software.html
 
 three main classes: .header, .body & .sidebar
 
